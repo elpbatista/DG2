@@ -4,6 +4,18 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
 
 ## Requirements
 
+## Libraries
+
+<https://github.com/visgl/react-map-gl>
+
+<https://maplibre.org>
+
+<https://visgl.github.io/react-map-gl/docs/get-started/get-started#using-with-a-mapbox-gl-fork>
+
+```text
+npm install --save react-map-gl maplibre-gl
+```
+
 <https://visgl.github.io/react-map-gl/examples>
 
 ## References

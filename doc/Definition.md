@@ -83,7 +83,7 @@ This project is intended to be developed in the following 4 stages. Of course, t
 
 ### 4.2. React UI Libraries
 
-1. [MaterialUI:](https://mui.com) It is one of the best ReactJS UI frameworks. It is also the most popular React Component UI library. Data Grid components would need upgrade :moneybag: to PRO version. :skull_and_crossbones::-1:
+1. [MaterialUI:](https://mui.com) It is one of the best ReactJS UI frameworks. It is also the most popular React Component UI library. Data Grid components would need upgrade :moneybag: to PRO version. :-1:
 2. [React Bootstrap:](https://react-bootstrap.github.io) **Bootstrap** is the most popular front-end framework, rebuilt for React. :+1:
 3. [Ant Design:](https://ant.design) It provides a design system for enterprise products. React is used to encapsulate a library of components which embody its own design language. It adds an abstraction layer written in TypeScript to translate their design patterns into React components.
 

@@ -47,6 +47,7 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
 ### 1.3. Technical Requirements
 
 - [ ] React Web app that is suitable for desktop and mobile use
+- [ ] Serverless application
 - [ ] Integrate into an ecosystem of websites through [`react-router`](https://github.com/remix-run/react-router)
 - [ ] The output of the components must be **Javascript-free,** pure HTML and CSS.
 

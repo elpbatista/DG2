@@ -16,6 +16,7 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
 - [5. Notes](#5-notes)
 - [6. Discussion](#6-discussion)
   - [6.1. Can Bootstrap been considered a lightweight library?](#61-can-bootstrap-been-considered-a-lightweight-library)
+  - [6.2. Full screen map vs Horizontal split](#62-full-screen-map-vs-horizontal-split)
 
 ## 1. Requirements
 
@@ -39,11 +40,14 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
 ### 1.2. Design Features
 
 - [ ] Single-page app
-- [ ] _Full screen map vs Horizontal split_ still requires some discussion :point_up::cyclone:
+- [ ] _Full screen map vs Horizontal split_ still requires some [discussion]((#full-screen-map-vs-horizontal-split)) :point_up::cyclone:
+- [ ] The layout shall comply with the **W3C standard.** It can use a **flat design** and a **mobile first** approach.
 
 ### 1.3. Technical Requirements
 
 - [ ] React Web app that is suitable for desktop and mobile use
+- [ ] Integrate into an ecosystem of websites through [`react-router`](https://github.com/remix-run/react-router)
+- [ ] The output of the components must be **Javascript-free,** pure HTML and CSS.
 
 ## 2. Proposed Libraries
 
@@ -97,6 +101,12 @@ This project is intended to be developed in the following 4 stages. Of course, t
 npx create-react-app my-app
 ```
 
+[react-router](https://github.com/remix-run/react-router)
+
+```text
+npm i react-router
+```
+
 [react-map-gl with MapLibre](https://visgl.github.io/react-map-gl/docs/get-started/get-started#using-with-a-mapbox-gl-fork)
 
 ```text
@@ -110,3 +120,7 @@ npm install --save react-map-gl maplibre-gl
 Definitely not, but...
 
 [Why React-Bootstrap?](https://react-bootstrap.github.io/getting-started/why-react-bootstrap/)
+
+### 6.2. Full screen map vs Horizontal split
+
+Please add your thoughts here

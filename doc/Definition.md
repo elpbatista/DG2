@@ -14,8 +14,8 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
   - [4.1. React Map Libraries](#41-react-map-libraries)
   - [4.2. React UI Libraries](#42-react-ui-libraries)
 - [5. Notes](#5-notes)
-- [Discussion](#discussion)
-  - [Can Bootstrap been considered a lightweight library?](#can-bootstrap-been-considered-a-lightweight-library)
+- [6. Discussion](#6-discussion)
+  - [6.1. Can Bootstrap been considered a lightweight library?](#61-can-bootstrap-been-considered-a-lightweight-library)
 
 ## 1. Requirements
 
@@ -103,10 +103,10 @@ npx create-react-app my-app
 npm install --save react-map-gl maplibre-gl
 ```
 
-## Discussion
+## 6. Discussion
 
-### Can Bootstrap been considered a lightweight library?
+### 6.1. Can Bootstrap been considered a lightweight library?
 
-Definitely not, but... 
+Definitely not, but...
 
 [Why React-Bootstrap?](https://react-bootstrap.github.io/getting-started/why-react-bootstrap/)

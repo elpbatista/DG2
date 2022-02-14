@@ -89,6 +89,10 @@ This project is intended to be developed in the following 4 stages. Of course, t
 
 ## 5. Notes
 
+```text
+npx create-react-app myReatApp
+```
+
 [react-map-gl with MapLibre](https://visgl.github.io/react-map-gl/docs/get-started/get-started#using-with-a-mapbox-gl-fork)
 
 ```text

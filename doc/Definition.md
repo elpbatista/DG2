@@ -41,7 +41,7 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
 
 - [ ] Single-page app
 - [ ] _Full screen map vs Horizontal split_ still requires some [discussion]((#full-screen-map-vs-horizontal-split)) :point_up::cyclone:
-- [ ] The layout shall comply with the **W3C standard.** It can use a **flat design** and a **mobile first** approach.
+- [ ] The design must comply with the **W3C standard.** A **flat design** and a **mobile-first** approach can also be used.
 
 ### 1.3. Technical Requirements
 

@@ -55,7 +55,7 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
 
 Having done some research on the more established React projects for mapping and UI listed [below](#4-references), here is a _tentative proposal_ of libraries to use.
 
-Mapping: [react-map-gl](https://github.com/visgl/react-map-gl) + [MapLibre](https://maplibre.org). See some examples [here](https://visgl.github.io/react-map-gl/example)
+Mapping: [react-map-gl](https://github.com/visgl/react-map-gl) + [MapLibre](https://maplibre.org). See some examples [here](http://visgl.github.io/react-map-gl/examples)
 
 UI: [React Bootstrap](https://react-bootstrap.github.io)
 

@@ -18,7 +18,7 @@ This is an enhanced version of [digital-guard](https://digital-guard.github.io/p
   - [6.1. Can Bootstrap been considered a lightweight library?](#61-can-bootstrap-been-considered-a-lightweight-library)
   - [6.2. Full screen map vs Horizontal split](#62-full-screen-map-vs-horizontal-split)
   - [6.3. Let's talk a little about the institutional websites ecosystem](#63-lets-talk-a-little-about-the-institutional-websites-ecosystem)
-  - [6.4. Use OpenMapTiles as alternative to Mapbox](#64-use-openmaptiles-as-alternative-to-mapbox)
+  - [6.4. Use OpenMapTiles as alternative to Mapbox vector tiles](#64-use-openmaptiles-as-alternative-to-mapbox-vector-tiles)
 
 ## 1. Requirements
 
@@ -134,7 +134,7 @@ Please add your thoughts here
 
 I will need a sketch to get an idea of where we are in this ecosystem. I'm already working on it.
 
-### 6.4. Use OpenMapTiles as alternative to Mapbox
+### 6.4. Use OpenMapTiles as alternative to Mapbox vector tiles
 
 [OpenMapTiles:](https://github.com/openmaptiles) Vector Tiles from OpenStreetMap and OpenData
 

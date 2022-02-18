@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 img {
   height:150px;
   padding:1rem;

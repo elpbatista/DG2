@@ -1,0 +1,47 @@
+.brand {
+  height: 45px;
+  width: fit-content;
+  /* display: inline-block; */
+  /* position: relative; */
+}
+svg {
+  height: 100%;
+  width: 100px;
+}
+.lgrad_blue {
+  fill: url(#lgrad_blue);
+}
+.fill_green {
+  fill: #3a9948;
+}
+svg.dark {
+  background-color: gray;
+}
+svg.dark .lgrad_blue,
+svg.dark .fill_green {
+  fill: antiquewhite;
+}
+#phrase {
+  display: unset;
+}
+@media (max-width: 767.98px) {
+  svg {
+    height: 60px;
+    padding: 0.3rem;
+  }
+  #phrase {
+    display: none;
+  }
+  .brand {
+    width: 53px !important;
+    height: 37px;
+    overflow: hidden;
+  }
+}
+#sn-icons svg {
+  height: 24px;
+  width: 24px;
+}
+#sn-icons svg path{
+  fill:gray;
+}

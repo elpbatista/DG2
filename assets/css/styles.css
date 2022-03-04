@@ -42,6 +42,34 @@ svg.dark .fill_green {
   height: 24px;
   width: 24px;
 }
-#sn-icons svg path{
-  fill:gray;
+#sn-icons svg path {
+  fill: gray;
+}
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+#searchAddr {
+  background-image: url(../../assets/img/banner.svg);
+  position: relative;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+.featurette-heading {
+  margin-top: 5rem;
+}
+.featurette-heading {
+  font-size: 50px;
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
 }

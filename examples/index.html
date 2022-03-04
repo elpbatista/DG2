@@ -18,11 +18,11 @@
       <svg xmlns="http://www.w3.org/2000/svg" class="visually-hidden">
         <symbol id="logosvg" viewBox="50 74.71 104.63 55.19">
           <defs>
-            <linearGradient id="lgrad_blue" x1="100%" y1="50%" x2="0%" y2="50%">
-              <stop offset="0%" style="stop-color: #0474a5; stop-opacity: 1" />
+            <linearGradient id="lgrad_blue" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color: #1b439a; stop-opacity: 1" />
               <stop
                 offset="100%"
-                style="stop-color: #1b439a; stop-opacity: 1"
+                style="stop-color: #0474a5; stop-opacity: 1"
               />
             </linearGradient>
           </defs>
@@ -69,71 +69,77 @@
       </svg>
 
       <h1 class="visually-hidden">AddressForAll</h1>
-      <div class="container">
-        <header
-          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-        >
-          <a
-            href="/"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+      <header class="p-1 mb-1 shadow-sm">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
           >
-            <div class="brand">
-              <svg><use xlink:href="#logosvg"></use></svg>
-            </div>
-          </a>
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+            >
+              <div class="brand">
+                <svg><use xlink:href="#logosvg"></use></svg>
+              </div>
+            </a>
 
-          <nav class="navbar">
-            <ul class="nav">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="corporateMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Corporate
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="corporateMenuLink">
-                  <li><a class="dropdown-item" href="#">About US</a></li>
-                  <li><a class="dropdown-item" href="#">Statute</a></li>
-                  <li><a class="dropdown-item" href="#">Projects</a></li>
-                  <li><a class="dropdown-item" href="#">Partnerships</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="resourcesMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Resources
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="resourcesMenuLink">
-                  <li><a class="dropdown-item" href="#">Data</a></li>
-                  <li><a class="dropdown-item" href="#">Services</a></li>
-                  <li><a class="dropdown-item" href="#">API</a></li>
-                  <li><a class="dropdown-item" href="#">Tools</a></li>
-                </ul>
-              </li>
-              <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-            </ul>
-            <form class="d-flex">
-              <select class="form-select" aria-label="Language">
-                <option value="pt">pt</option>
-                <option value="es">sp</option>
-                <option selected="en">en</option>
-              </select>
-            </form>
-          </nav>
-        </header>
+            <nav class="navbar">
+              <ul class="nav">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="corporateMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Corporate
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="corporateMenuLink">
+                    <li><a class="dropdown-item" href="#">About US</a></li>
+                    <li><a class="dropdown-item" href="#">Statute</a></li>
+                    <li><a class="dropdown-item" href="#">Projects</a></li>
+                    <li><a class="dropdown-item" href="#">Partnerships</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="resourcesMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Resources
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="resourcesMenuLink">
+                    <li><a class="dropdown-item" href="#">Data</a></li>
+                    <li><a class="dropdown-item" href="#">Services</a></li>
+                    <li><a class="dropdown-item" href="#">API</a></li>
+                    <li><a class="dropdown-item" href="#">Tools</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+              </ul>
+              <form class="d-flex">
+                <select class="form-select" aria-label="Language">
+                  <option value="pt">pt</option>
+                  <option value="es">sp</option>
+                  <option selected="en">en</option>
+                </select>
+              </form>
+            </nav>
+          </div>
+        </div>
+      </header>
 
+      <div class="container">
         <div class="p-4 p-md-5 mb-4">
           <div class="row">
             <div class="col-md-6 px-0">
@@ -161,7 +167,7 @@
         </div>
       </div>
 
-      <section id="searchAddr" class="parallax">
+      <section id="searchAddr" class="parallax shadow-sm">
         <div class="py-4 text-center container">
           <div class="row py-lg-5">
             <div class="message col-lg-8 col-md-8 mx-auto">
@@ -262,8 +268,24 @@
               />
             </div>
           </div>
+        </div>
+      </section>
 
-          <hr class="featurette-divider" />
+      <section id="instituteAFA">
+        <div class="py-3 text-center text-light container">
+          <div class="row py-lg-3">
+            <div class="message col-lg-8 col-md-8 mx-auto">
+              <p class="fw-light fs-1">Institute AddressForAlL</p>
+              <p class="lead">
+                The AddressForAlL Geo-social Technologies Institute aims to
+                advocate for open data and social improvement through the good
+                use of technology with an emphasis on geo-spatial technologies.
+              </p>
+              <p>
+                <a href="#" class="btn btn-primary my-2">About Us</a>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>

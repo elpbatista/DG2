@@ -1,5 +1,5 @@
 .brand {
-  height: 45px;
+  height: 3.7rem;
   width: fit-content;
   /* display: inline-block; */
   /* position: relative; */
@@ -24,20 +24,6 @@ svg.dark .fill_green {
 #phrase {
   display: unset;
 }
-@media (max-width: 767.98px) {
-  svg {
-    height: 60px;
-    padding: 0.3rem;
-  }
-  #phrase {
-    display: none;
-  }
-  .brand {
-    width: 53px !important;
-    height: 37px;
-    overflow: hidden;
-  }
-}
 #sn-icons svg {
   height: 24px;
   width: 24px;
@@ -57,19 +43,18 @@ svg.dark .fill_green {
 #searchAddr {
   background-image: url(../../assets/img/banner.svg);
   position: relative;
+  margin-bottom: 2rem;
 }
-
+#instituteAFA {
+  background: linear-gradient(135deg, #1b439a 0%, #0474a5 100%);
+}
 .featurette-divider {
   margin: 5rem 0;
-}
-.featurette-heading {
-  margin-top: 5rem;
-}
-.featurette-heading {
-  font-size: 50px;
 }
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.05rem;
+  margin-top: 5rem;
+  font-size: 3rem;
 }

@@ -1,3 +1,24 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+address,
+article,
+aside,
+div,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+header {
+  padding: 0.25rem;
+  margin-bottom: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
 .brand {
   height: 3.7rem;
   width: fit-content;
@@ -57,4 +78,15 @@ svg.dark .fill_green {
   letter-spacing: -0.05rem;
   margin-top: 5rem;
   font-size: 3rem;
+}
+.hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }

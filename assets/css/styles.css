@@ -25,6 +25,13 @@ header {
   /* display: inline-block; */
   /* position: relative; */
 }
+.container {
+	width: 100%;
+	padding-right: .75rem;
+	padding-left: .75rem;
+	margin-right: auto;
+	margin-left: auto;
+}
 svg {
   height: 100%;
   width: 100px;
@@ -89,4 +96,25 @@ svg.dark .fill_green {
   clip: rect(0, 0, 0, 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+}
+/* media queries */
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 992px) {
+	.container{
+		max-width: 960px;
+	}
+}
+@media (min-width: 1200px) {
+	.container{
+		max-width: 1140px;
+	}
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }

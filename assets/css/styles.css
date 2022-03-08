@@ -22,6 +22,13 @@ header {
 footer {
   padding: 3rem 0;
 }
+h1 {
+	font-size: 3.5rem;
+	font-weight: 300;
+	line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
 .brand {
   height: 3.7rem;
   width: fit-content;
@@ -39,6 +46,10 @@ footer {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+}
+.lead {
+	font-size: 1.25rem;
+	font-weight: 300;
 }
 svg {
   height: 100%;

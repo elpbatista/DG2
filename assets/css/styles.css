@@ -19,6 +19,9 @@ header {
   margin-bottom: 0.25rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
+footer {
+	padding: 3rem 0;
+}
 .brand {
   height: 3.7rem;
   width: fit-content;
@@ -31,6 +34,11 @@ header {
 	padding-left: .75rem;
 	margin-right: auto;
 	margin-left: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+  margin: 0;
 }
 svg {
   height: 100%;
@@ -67,6 +75,10 @@ svg.dark .fill_green {
   background-repeat: repeat-x;
   background-size: contain;
 }
+#advertisment {
+  padding: 3rem;
+  margin-bottom: 1.5rem;
+}
 
 #searchAddr {
   background-image: url(../../assets/img/banner.svg);
@@ -97,10 +109,20 @@ svg.dark .fill_green {
   white-space: nowrap !important;
   border: 0 !important;
 }
+.clear {
+  clear: both;
+}
 /* media queries */
 @media (min-width: 576px) {
 	.container {
 		max-width: 540px;
+	}
+}
+@media (min-width: 768px) {
+	.half {
+		flex: 0 0 auto;
+		width: 50%;
+    float: left;
 	}
 }
 @media (min-width: 992px) {

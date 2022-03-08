@@ -20,7 +20,7 @@ header {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 footer {
-	padding: 3rem 0;
+  padding: 3rem 0;
 }
 .brand {
   height: 3.7rem;
@@ -29,15 +29,15 @@ footer {
   /* position: relative; */
 }
 .container {
-	width: 100%;
-	padding-right: .75rem;
-	padding-left: .75rem;
-	margin-right: auto;
-	margin-left: auto;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 .row {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
 }
 svg {
@@ -67,7 +67,6 @@ svg.dark .fill_green {
 #sn-icons svg path {
   fill: gray;
 }
-
 .parallax {
   position: relative;
   background-attachment: fixed;
@@ -78,8 +77,9 @@ svg.dark .fill_green {
 #advertisment {
   padding: 3rem;
   margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 #searchAddr {
   background-image: url(../../assets/img/banner.svg);
   position: relative;
@@ -114,26 +114,26 @@ svg.dark .fill_green {
 }
 /* media queries */
 @media (min-width: 576px) {
-	.container {
-		max-width: 540px;
-	}
+  .container {
+    max-width: 540px;
+  }
 }
 @media (min-width: 768px) {
-	.half {
-		flex: 0 0 auto;
-		width: 50%;
+  .half {
+    flex: 0 0 auto;
+    width: 50%;
     float: left;
-	}
+  }
 }
 @media (min-width: 992px) {
-	.container{
-		max-width: 960px;
-	}
+  .container {
+    max-width: 960px;
+  }
 }
 @media (min-width: 1200px) {
-	.container{
-		max-width: 1140px;
-	}
+  .container {
+    max-width: 1140px;
+  }
 }
 @media (min-width: 1400px) {
   .container {

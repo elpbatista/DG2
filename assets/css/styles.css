@@ -51,6 +51,9 @@ h1 {
 	font-size: 1.25rem;
 	font-weight: 300;
 }
+p.lead {
+  margin: 1.5rem 0;
+}
 svg {
   height: 100%;
   width: 100px;

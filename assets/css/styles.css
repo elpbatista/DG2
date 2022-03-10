@@ -99,6 +99,9 @@ svg.dark .fill_green {
   background-repeat: repeat-x;
   background-size: contain;
 }
+.searchform {
+  margin: auto;
+}
 #advertisment {
   padding: 3rem;
   margin-bottom: 1.5rem;
@@ -170,7 +173,9 @@ svg.dark .fill_green {
   .half {
     width: 50%;
   }
-  .twothirds {
+  .twothirds,
+  .message,
+  .searchform {
     width: 66%;
   }
 }

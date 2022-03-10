@@ -22,12 +22,23 @@ header {
 footer {
   padding: 3rem 0;
 }
-h1 {
-	font-size: 3.5rem;
-	font-weight: 300;
-	line-height: 1.2;
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  line-height: 1.2;
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.05rem;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.75rem;
 }
 .brand {
   height: 3.7rem;
@@ -48,8 +59,8 @@ h1 {
   margin: 0;
 }
 .lead {
-	font-size: 1.25rem;
-	font-weight: 300;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 p.lead {
   margin: 1.5rem 0;
@@ -98,19 +109,23 @@ svg.dark .fill_green {
   background-image: url(../../assets/img/banner.svg);
   position: relative;
   margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+#searchAddr .container {
+  padding: 3rem 0;
 }
 #instituteAFA {
   background: linear-gradient(135deg, #1b439a 0%, #0474a5 100%);
 }
-.featurette-divider {
+#publiMessages .container {
+  padding: 3rem 0;
+}
+.divider {
   margin: 5rem 0;
 }
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05rem;
+.featurette h2 {
   margin-top: 5rem;
-  font-size: 3rem;
 }
 .hidden {
   position: absolute !important;
@@ -126,6 +141,13 @@ svg.dark .fill_green {
 .clear {
   clear: both;
 }
+.onefourth,
+.onethird,
+.half,
+.twothirds {
+  flex: 0 0 auto;
+  float: left;
+}
 /* media queries */
 @media (min-width: 576px) {
   .container {
@@ -133,10 +155,23 @@ svg.dark .fill_green {
   }
 }
 @media (min-width: 768px) {
+  .onefifth {
+    width: 20%;
+  }
+  .twofifths {
+    width: 40%;
+  }
+  .onefourth {
+    width: 25%;
+  }
+  .onethird {
+    width: 33%;
+  }
   .half {
-    flex: 0 0 auto;
     width: 50%;
-    float: left;
+  }
+  .twothirds {
+    width: 66%;
   }
 }
 @media (min-width: 992px) {

@@ -1,0 +1,67 @@
+/* ---
+Theme Name: Grid CSS
+Theme URI: 
+Description: A lightweight CSS Responsive Grid
+Version: 1.0
+Author: Zayed Baloch
+Author URI: https://www.gridcss.com/
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: grid css, responsive, css, lightweight
+--- */
+
+/* Section */
+.section {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}
+/* Column */
+.col {
+  background: #eee;
+  display: block;
+  float: left;
+  margin: 1% 0 1% 2%;
+}
+.col:first-child {
+  margin-left: 0 !important;
+}
+
+/* Row */
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row {
+  zoom: 1; /* For IE 6/7 */
+}
+
+/* Grid */
+.grid_1_of_5 {
+  width: 18.4%;
+}
+.grid_2_of_5 {
+  width: 38.8%;
+}
+.grid_3_of_5 {
+  width: 59.2%;
+}
+.grid_4_of_5 {
+  width: 79.6%;
+}
+.grid_5_of_5 {
+  width: 100%;
+}
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+  [class*="grid_"] {
+    width: 100%;
+  }
+}

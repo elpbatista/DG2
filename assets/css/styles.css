@@ -385,6 +385,9 @@ hr:not([size]) {
 }
 #instituteAFA {
   background: linear-gradient(135deg, #1b439a 0%, #0474a5 100%);
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--bs-light);
 }
 #publiMessages .container {
   padding: 3rem 0;
@@ -409,6 +412,8 @@ hr:not([size]) {
 .clear {
   clear: both;
 }
+.onefifth,
+.twofifths,
 .onefourth,
 .onethird,
 .half,

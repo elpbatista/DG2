@@ -142,6 +142,9 @@ svg {
   height: 100%;
   width: 100px;
 }
+img, svg {
+	vertical-align: middle;
+}
 .lgrad_blue {
   fill: url(#lgrad_blue);
 }
@@ -154,6 +157,16 @@ svg.dark {
 svg.dark .lgrad_blue,
 svg.dark .fill_green {
   fill: antiquewhite;
+}
+hr {
+	margin: 1rem 0;
+	color: inherit;
+	background-color: currentColor;
+	border: 0;
+	opacity: .25;
+}
+hr:not([size]) {
+	height: 1px;
 }
 #phrase {
   display: unset;
@@ -263,11 +276,67 @@ svg.dark .fill_green {
 	width: 1%;
 	min-width: 0;
 }
+.input-group {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	width: 100%;
+}
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+	margin-left: -1px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.input-group .btn {
+	position: relative;
+	z-index: 2;
+}
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+	cursor: pointer;
+}
+.btn-group-lg > .btn, .btn-lg {
+	padding: .5rem 1rem;
+	font-size: 1.25rem;
+	border-radius: .3rem;
+}
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-secondary {
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+[type="button"], [type="reset"], [type="submit"], button {
+	-webkit-appearance: button;
+}
 .form-control-lg {
 	min-height: calc(1.5em + 1rem + 2px);
 	padding: .5rem 1rem;
 	font-size: 1.25rem;
 	border-radius: .3rem;
+}
+.bd-placeholder-img.bd-placeholder-img-lg.featurette-image.img-fluid.mx-auto {
+	width: 500px;
+	aspect-ratio: auto 500 / 500;
+	height: 500px;
 }
 .flex-wrap {
 	flex-wrap: wrap!important;
@@ -278,6 +347,15 @@ svg.dark .fill_green {
 .d-flex {
 	display: flex!important;
 }
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+.mx-auto {
+	margin-right: auto!important;
+	margin-left: auto!important;
+}
+
 .parallax {
   position: relative;
   background-attachment: fixed;

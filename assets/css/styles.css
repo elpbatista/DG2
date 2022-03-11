@@ -105,6 +105,10 @@ h2 {
 h3 {
   font-size: 2.75rem;
 }
+dl, ol, ul {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
 .brand {
   height: 3.7rem;
   width: fit-content;
@@ -129,6 +133,10 @@ h3 {
 }
 p.lead {
   margin: 1.5rem 0;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
 }
 svg {
   height: 100%;
@@ -176,6 +184,22 @@ svg.dark .fill_green {
 .dropdown, .dropend, .dropstart, .dropup {
 	position: relative;
 }
+.dropdown-menu {
+	position: absolute;
+	z-index: 1000;
+	display: none;
+	min-width: 10rem;
+	padding: .5rem 0;
+	margin: 0;
+	font-size: 1rem;
+	color: #212529;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: .25rem;
+}
 .dropdown-item {
 	display: block;
 	width: 100%;
@@ -195,6 +219,22 @@ svg.dark .fill_green {
 	color: #0d6efd;
 	text-decoration: none;
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.dropdown-toggle {
+	white-space: nowrap;
+}
+[role="button"] {
+	cursor: pointer;
+}
+.dropdown-toggle::after {
+	display: inline-block;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: .3em solid;
+	border-right: .3em solid transparent;
+	border-bottom: 0;
+	border-left: .3em solid transparent;
 }
 .form-select {
 	display: block;
@@ -217,6 +257,27 @@ svg.dark .fill_green {
 	-moz-appearance: none;
 	appearance: none;
 }
+.input-group > .form-control, .input-group > .form-select {
+	position: relative;
+	flex: 1 1 auto;
+	width: 1%;
+	min-width: 0;
+}
+.form-control-lg {
+	min-height: calc(1.5em + 1rem + 2px);
+	padding: .5rem 1rem;
+	font-size: 1.25rem;
+	border-radius: .3rem;
+}
+.flex-wrap {
+	flex-wrap: wrap!important;
+}
+.align-items-center {
+	align-items: center!important;
+}
+.d-flex {
+	display: flex!important;
+}
 .parallax {
   position: relative;
   background-attachment: fixed;
@@ -224,7 +285,8 @@ svg.dark .fill_green {
   background-repeat: repeat-x;
   background-size: contain;
 }
-.searchform {
+.searchform,
+.message {
   margin: auto;
 }
 #advertisment {
@@ -276,7 +338,7 @@ svg.dark .fill_green {
   flex: 0 0 auto;
   float: left;
 }
-/* media queries */
+/********************************* media queries ***********************************************/
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -303,11 +365,17 @@ svg.dark .fill_green {
   .searchform {
     width: 66%;
   }
+	.me-md-auto {
+		margin-right: auto!important;
+	}
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+	.justify-content-lg-start {
+		justify-content: flex-start!important;
+	}
 }
 @media (min-width: 1200px) {
   .container {

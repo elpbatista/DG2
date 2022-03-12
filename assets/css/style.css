@@ -148,13 +148,6 @@ img, svg {
 .fill_green {
   fill: #3a9948;
 }
-svg.dark {
-  background-color: gray;
-}
-svg.dark .lgrad_blue,
-svg.dark .fill_green {
-  fill: antiquewhite;
-}
 hr {
 	margin: 1rem 0;
 	color: inherit;
@@ -171,9 +164,6 @@ hr:not([size]) {
 #sn-icons svg {
   height: 24px;
   width: 24px;
-}
-#sn-icons svg path {
-  fill: gray;
 }
 .navbar {
 	position: relative;
@@ -352,7 +342,6 @@ hr:not([size]) {
 	margin-right: auto!important;
 	margin-left: auto!important;
 }
-
 .parallax {
   position: relative;
   background-attachment: fixed;
@@ -418,6 +407,19 @@ hr:not([size]) {
 .twothirds {
   flex: 0 0 auto;
   float: left;
+}
+.embed-youtube {
+    position: relative;
+    padding-bottom:33.3%; 
+    overflow: hidden;
+}
+.embed-youtube iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /********************************* media queries ***********************************************/
 @media (min-width: 576px) {

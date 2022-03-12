@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    /> -->
     <link href="../assets/css/style.css" rel="stylesheet" />
     <title>AddressForAll</title>
   </head>
@@ -129,28 +135,26 @@
 
     <main>
       <div id="advertisment" class="container">
-        <div class="row">
-          <div class="col grid_2_of_5">
-            <h1>AddressForAll</h1>
-            <p class="lead">
-              For services to reach the right place, addresses are a matter of
-              sovereignty for any country.
-            </p>
-            <p class="lead">
-              <a href="#">Continue reading...</a>
-            </p>
-          </div>
-          <div class="col grid_3_of_5">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/6sT6Xm8jwCI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div class="half">
+          <h1>AddressForAll</h1>
+          <p class="lead">
+            For services to reach the right place, addresses are a matter of
+            sovereignty for any country.
+          </p>
+          <p class="lead">
+            <a href="#">Continue reading...</a>
+          </p>
+        </div>
+        <div class="half">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/6sT6Xm8jwCI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
 
@@ -177,17 +181,21 @@
       <section id="publiMessages">
         <div class="container">
           <div class="row featurette">
-            <div class="col grid_3_of_5">
+            <div class="col-md-7">
               <h2>Addresses Matter!</h2>
               <p class="lead">
                 Not knowing where an address is can cost you time, lives, fuel,
                 and rework.
               </p>
             </div>
-            <div class="col grid_2_of_5">
+            <div class="col-md-5 order-md-1">
               <img
                 src="../assets/img/search.png"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
                 role="img"
+                aria-label="Placeholder: 500x500"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
                 alt=""
@@ -198,7 +206,7 @@
           <hr class="divider" />
 
           <div class="row featurette">
-            <div class="col grid_3_of_5 order-2">
+            <div class="col-md-7 order-md-2">
               <h2><span class="text-muted">Problem:</span> Separate DBs!</h2>
               <p class="lead">
                 Municipalities, utilities, logistics companies, improve their
@@ -206,10 +214,14 @@
                 the others.
               </p>
             </div>
-            <div class="col grid_2_of_5">
+            <div class="col-md-5">
               <img
                 src="../assets/img/db.png"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
                 role="img"
+                aria-label="Placeholder: 500x500"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
                 alt=""
@@ -220,7 +232,7 @@
           <hr class="divider" />
 
           <div class="row featurette">
-            <div class="col grid_3_of_5">
+            <div class="col-md-7">
               <h2>Let's Collaborate!</h2>
               <p class="lead">
                 This is why the AddressForAll Institute has been created. The
@@ -229,10 +241,14 @@
                 database that everyone can consult and download for free.
               </p>
             </div>
-            <div class="col grid_2_of_5">
+            <div class="col-md-5 order-md-1">
               <img
                 src="../assets/img/docs.png"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
                 role="img"
+                aria-label="Placeholder: 500x500"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
                 alt=""
@@ -262,59 +278,120 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col grid_1_of_5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            ducimus sunt sapiente dolorum doloremque voluptatibus delectus modi
-            aliquam quas dolor tempore nisi, est, quibusdam natus. Est illo
-            quisquam cumque mollitia?
-          </div>
-          <div class="col grid_1_of_5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            veritatis animi nemo provident iure culpa natus molestias est.
-            Temporibus consequuntur vero similique facere quam libero officiis
-            pariatur repudiandae tenetur nisi.
-          </div>
-          <div class="col grid_1_of_5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            praesentium, quae ea excepturi id libero, enim maiores, quo error
-            fugit ducimus! Corrupti ducimus qui labore dolorum voluptatum.
-            Vitae, sequi perferendis?
-          </div>
-          <div class="col grid_2_of_5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga saepe
-            suscipit qui dolorum, blanditiis, mollitia repellat cupiditate
-            inventore, quasi ullam atque obcaecati modi odio perferendis
-            temporibus eos facilis? Qui, accusamus.
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col grid_4_of_5"><p>© 2022 AddressForAll</p></div>
-          <div class="col grid_1_of_5">
-            <ul id="sn-icons" class="list-unstyled d-flex">
-              <li class="ms-3">
-                <a class="text-muted" href="#"
-                  ><svg class="bi">
-                    <use xlink:href="#twitter"></use></svg
-                ></a>
+          <div class="onefifth">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
               </li>
-              <li class="ms-3">
-                <a class="text-muted" href="#"
-                  ><svg class="bi">
-                    <use xlink:href="#instagram"></use></svg
-                ></a>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
               </li>
-              <li class="ms-3">
-                <a class="text-muted" href="#"
-                  ><svg class="bi">
-                    <use xlink:href="#facebook"></use></svg
-                ></a>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
               </li>
             </ul>
           </div>
+
+          <div class="onefifth">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="onefifth">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="twofifths">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>© 2022 AddressForAll</p>
+          <ul id="sn-icons" class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><svg class="bi">
+                  <use xlink:href="#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><svg class="bi">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><svg class="bi">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script> -->
     <script src="../assets/js/main.js"></script>
   </body>
 </html>

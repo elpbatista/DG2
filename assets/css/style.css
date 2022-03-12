@@ -390,10 +390,13 @@ hr:not([size]) {
   padding: 3rem 0;
 }
 .divider {
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 .featurette h2 {
   margin-top: 5rem;
+}
+.featurette img {
+  width: 100%;
 }
 .hidden {
   position: absolute !important;
@@ -447,6 +450,9 @@ hr:not([size]) {
   }
 	.me-md-auto {
 		margin-right: auto!important;
+	}
+	.order-2 {
+		order: 2!important;
 	}
 }
 @media (min-width: 992px) {

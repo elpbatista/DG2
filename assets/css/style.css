@@ -365,10 +365,8 @@ hr:not([size]) {
   margin: auto;
 }
 #advertisment {
-  padding: 3rem;
+  padding: 3rem 0;
   margin-bottom: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
 }
 #searchAddr {
   background-image: url(../../assets/img/banner.svg);

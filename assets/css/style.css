@@ -399,15 +399,6 @@ hr:not([size]) {
 .clear {
   clear: both;
 }
-.onefifth,
-.twofifths,
-.onefourth,
-.onethird,
-.half,
-.twothirds {
-  flex: 0 0 auto;
-  float: left;
-}
 .embed-youtube {
     position: relative;
     padding-bottom:33.3%; 
@@ -428,22 +419,6 @@ hr:not([size]) {
   }
 }
 @media (min-width: 768px) {
-  .onefifth {
-    width: 20%;
-  }
-  .twofifths {
-    width: 40%;
-  }
-  .onefourth {
-    width: 25%;
-  }
-  .onethird {
-    width: 33%;
-  }
-  .half {
-    width: 50%;
-  }
-  .twothirds,
   .message,
   .searchform {
     width: 66%;

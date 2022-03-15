@@ -29,7 +29,8 @@
     var(--afa-blue-dark) 0%,
     var(--afa-blue) 100%
   );
-  --afa-photo-size: 180px;
+  --afa-crew-photo-size: 180px;
+  --afa-card-size: 250px;
   --afa-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
 }
 body {
@@ -449,8 +450,8 @@ button {
   margin: 1rem;
 }
 .crew-photo {
-  width: var(--afa-photo-size);
-  height: var(--afa-photo-size);
+  width: var(--afa-crew-photo-size);
+  height: var(--afa-crew-photo-size);
   overflow: hidden;
   border-radius: 50%;
   margin: auto;
@@ -462,12 +463,12 @@ button {
   content: " - ";
 }
 .crew-photo img {
-  width: var(--afa-photo-size);
+  width: var(--afa-crew-photo-size);
 }
 .cards li,
 .card {
-  width: 250px;
-  min-width: 250px;
+  width: var(--afa-card-size);
+  min-width: var(--afa-ccard-size)px;
   background-color: var(--afa-gray-light);
   border-radius: 0.5rem;
   box-shadow: var(--afa-shadow);

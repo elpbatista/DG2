@@ -409,15 +409,31 @@ button {
   height: 100%;
 }
 .crew {
-	border: 1ps solid red;
-	display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+#quem-somos .crew .crew-member {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.crew {
 	padding: 0;
 	padding: 3rem 0;
 }
 .crew-member {
 	width: 18.4%;
 	text-align: center;
-	display: inline-block;
 	padding: 1rem 0;
 	margin-left: 1%;
 }
@@ -428,8 +444,6 @@ button {
 	overflow:hidden;
 	border-radius: 50%;
 	margin: auto;
-	display: flexbox;
-	flex-wrap: wrap;
 }
 .crew-member .muted::before {
 	content: ' - ';
@@ -438,7 +452,6 @@ button {
 	min-height: 100%;
 	width: var(--afa-photo-size);
 	aspect-ratio: auto var(--afa-photo-size) / var(--afa-photo-size);
-	/* height: var(--afa-photo-size); */
 }
 /********************************* media queries ***********************************************/
 @media (min-width: 576px) {

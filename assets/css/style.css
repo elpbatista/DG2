@@ -437,7 +437,7 @@ button {
   flex-direction: column;
 }
 .sponsors img {
-  width: 100%;
+  width: var(--afa-card-size);
   background-color: var(--afa-gray);
   padding: 0.75rem;
   border-radius: 0.5rem;

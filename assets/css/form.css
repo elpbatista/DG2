@@ -1,29 +1,8 @@
-/* .input-group > .form-control,
-.input-group > .form-select {
-  position: relative;
-  flex: 1 1 auto;
-  width: 1%;
-  min-width: 0;
-} */
-
-/* .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-  margin-left: -1px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-} */
-
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
   cursor: pointer;
-}
-.btn-group-lg > .btn,
-.btn-lg {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  border-radius: 0.3rem;
 }
 .btn {
   display: inline-block;
@@ -45,22 +24,11 @@ button:not(:disabled) {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
-}
 [type="button"],
 [type="reset"],
 [type="submit"],
 button {
   -webkit-appearance: button;
-}
-.form-control-lg {
-  min-height: calc(1.5em + 1rem + 2px);
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  border-radius: 0.3rem;
 }
 .form-select {
   display: block;
@@ -82,7 +50,8 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}.dropdown-toggle {
+}
+.dropdown-toggle {
   white-space: nowrap;
 }
 [role="button"] {

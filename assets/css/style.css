@@ -288,7 +288,7 @@ hr:not([size]) {
 }
 .flex-list,
 .crew-photo,
-.card-image{
+.card-image {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -323,7 +323,6 @@ hr:not([size]) {
   margin: auto;
   /* align-content: center; */
   box-shadow: var(--afa-shadow);
-
 }
 .crew .muted::before {
   content: " - ";
@@ -334,7 +333,7 @@ hr:not([size]) {
 .cards li,
 .card {
   width: var(--afa-card-size);
-  min-width: var(--afa-ccard-size)px;
+  min-width: var(--afa-ccard-size) px;
   background-color: var(--afa-gray-light);
   border-radius: 0.5rem;
   box-shadow: var(--afa-shadow);
@@ -351,6 +350,38 @@ hr:not([size]) {
 }
 .card-content {
   padding: 1.5rem;
+}
+/*********************** GRID **********************/
+/* Section */
+.section {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}
+/* Column */
+.col {
+  display: block;
+  float: left;
+  margin: 1rem 0;
+}
+.col:first-child {
+  margin-left: 0 !important;
+}
+/* Row */
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row {
+  zoom: 1; /* For IE 6/7 */
+}
+/* Grid */
+.col-5-5 {
+  width: 100%;
 }
 /********************************* media queries ***********************************************/
 @media (min-width: 576px) {
@@ -369,10 +400,31 @@ hr:not([size]) {
   .order-2 {
     order: 2 !important;
   }
+  .col {
+    margin-left: 0;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .col {
+    margin-left: 10;
+  }
+  .col-1-5 {
+    width: 184px;
+  }
+  .col-2-5 {
+    width: 378px;
+  }
+  .col-3-5 {
+    width: 572px;
+  }
+  .col-4-5 {
+    width: 766px;
   }
   .justify-content-lg-start {
     justify-content: flex-start !important;
@@ -382,9 +434,39 @@ hr:not([size]) {
   .container {
     max-width: 1140px;
   }
+  .col {
+    margin-left: 20;
+  }
+  .col-1-5 {
+    width: 212px;
+  }
+  .col-2-5 {
+    width: 444px;
+  }
+  .col-3-5 {
+    width: 676px;
+  }
+  .col-4-5 {
+    width: 908px;
+  }
 }
 @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
+  }
+  .col {
+    margin-left: 30;
+  }
+  .col-1-5 {
+    width: 240px;
+  }
+  .col-2-5 {
+    width: 510px;
+  }
+  .col-3-5 {
+    width: 780px;
+  }
+  .col-4-5 {
+    width: 1050px;
   }
 }

@@ -76,11 +76,6 @@ ul {
   margin-right: auto;
   margin-left: auto;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-}
 .lead {
   font-size: 1.25rem;
   /* font-weight: 300; */
@@ -193,6 +188,9 @@ hr:not([size]) {
 .align-items-center {
   align-items: center !important;
 }
+.justify-content-center {
+  justify-content: center !important;
+}
 .d-flex {
   display: flex !important;
 }
@@ -240,9 +238,6 @@ hr:not([size]) {
 }
 .divider {
   margin: 3rem 0;
-}
-.featurette h2 {
-  margin-top: 5rem;
 }
 .featurette img {
   width: 100%;
@@ -360,9 +355,11 @@ hr:not([size]) {
 }
 /* Column */
 .col {
-  display: block;
-  float: left;
+  display: flex;
+  /* float: left; */
   margin: 1rem 0;
+  flex-direction: column;
+  /* justify-content: center; */
 }
 .col:first-child {
   margin-left: 0 !important;
@@ -377,6 +374,9 @@ hr:not([size]) {
   clear: both;
 }
 .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
   zoom: 1; /* For IE 6/7 */
 }
 /* Grid */

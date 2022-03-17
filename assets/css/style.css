@@ -1,6 +1,5 @@
 @import url(sanitize.css);
 @import url(vars.css);
-@import url(grid.css);
 @import url(form.css);
 @font-face {
   font-family: "Roboto";
@@ -222,7 +221,7 @@ hr:not([size]) {
   position: relative;
   margin-bottom: 2rem;
   text-align: center;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: var(--afa-shadow);
 }
 #searchAddr .container {
   padding: 3rem 0;
@@ -356,13 +355,9 @@ hr:not([size]) {
 /* Column */
 .col {
   display: flex;
-  /* float: left; */
-  margin: 1rem 0;
+  margin: 0.75rem;
   flex-direction: column;
-  /* justify-content: center; */
-}
-.col:first-child {
-  margin-left: 0 !important;
+  /* background-color: beige; */
 }
 /* Row */
 .row:before,
@@ -388,34 +383,37 @@ hr:not([size]) {
   .container {
     max-width: 540px;
   }
+  [class*="col-"] {
+    background-color: transparent;
+  }
+  .col:first-child {
+    margin-left: 0 !important;
+  }
 }
 @media (min-width: 768px) {
   .message,
   .searchform {
     width: 66%;
   }
-  .me-md-auto {
-    margin-right: auto !important;
-  }
   .order-2 {
     order: 2 !important;
   }
   .col {
-    margin-left: 0;
+    margin: .75rem 0;
   }
-  [class*="col-"] {
-    width: 100%;
-  }
+  .me-md-auto {
+		margin-right: auto!important;
+	}
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
   .col {
-    margin-left: 10;
+    margin-left: 10px;
   }
   .col-1-5 {
-    width: 184px;
+    width: 175px;
   }
   .col-2-5 {
     width: 378px;
@@ -424,7 +422,7 @@ hr:not([size]) {
     width: 572px;
   }
   .col-4-5 {
-    width: 766px;
+    width: 750px;
   }
   .justify-content-lg-start {
     justify-content: flex-start !important;
@@ -435,10 +433,10 @@ hr:not([size]) {
     max-width: 1140px;
   }
   .col {
-    margin-left: 20;
+    margin-left: 20px;
   }
   .col-1-5 {
-    width: 212px;
+    width: 205px;
   }
   .col-2-5 {
     width: 444px;
@@ -447,7 +445,7 @@ hr:not([size]) {
     width: 676px;
   }
   .col-4-5 {
-    width: 908px;
+    width: 890px;
   }
 }
 @media (min-width: 1400px) {
@@ -455,10 +453,10 @@ hr:not([size]) {
     max-width: 1320px;
   }
   .col {
-    margin-left: 30;
+    margin-left: 30px;
   }
   .col-1-5 {
-    width: 240px;
+    width: 230px;
   }
   .col-2-5 {
     width: 510px;
@@ -467,6 +465,6 @@ hr:not([size]) {
     width: 780px;
   }
   .col-4-5 {
-    width: 1050px;
+    width: 1030px;
   }
 }
